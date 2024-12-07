@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataTables Example</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-d53d10572a0e0d37cb8d614a3f177a0c.css?vsn=d"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- Slick JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/home.css" />
+  </head>
+  <body>
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top_left">
+          <div>
+            <i class="fa-light fa-envelope" style="color: #ffffff"></i>
+            <a href="/">info@studyhub.com</a>
+          </div>
+          <div>
+            <i class="fa-light fa-phone" style="color: #ffffff"></i>
+            <a href="/">+61 012 012 445</a>
+          </div>
+        </div>
+        <div class="header-top_right">
+          <div>
+            <i
+              class="fa-sharp fa-light fa-location-dot"
+              style="color: #ffffff"
+            ></i>
+            <a href="/">684 West College St. Sun City, USA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="header-bottom_left">
+            <div class="haeder-logo">
+              <img
+                src="	https://studyhub.themewant.com/university/wp-content/uploads/2023/07/logo-default.svg"
+                alt=""
+              />
+            </div>
+            <nav>
+              <ul class="nav">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item">
+                  <a href="#">Pages<i class="fa-solid fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#"
+                    >Academics<i class="fa-solid fa-chevron-down"></i
+                  ></a>
+                </li>
+                <li class="nav-item"><a href="#">Events</a></li>
+                <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a  href="./blog.html">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-bottom_right">
+            <div class="header-search">
+              <input
+                class="search-input"
+                type="text"
+                placeholder="Search ..."
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-program-slider">
+          <div class="slider">
+            
+            <div>
+              <div class="item bg-red">
+                <p></p>
+              </div>
+            </div>
+
+            <div>
+              <div class="item bg-yellow"><p>4</p></div>
+            </div>
+            <div>
+              <div class="item bg-red"><p>5</p></div>
+            </div>
+            <div>
+              <div class="item bg-blue"><p>6</p></div>
+            </div>
+            <div>
+              <div class="item bg-yellow"><p>7</p></div>
+            </div>
+
+
+
+          </div>
+          <div class="slider-nav"></div>
+        </div>
+      </section>
+      <section>
+        <div class="section-university">
+          <div class="container">
+            <div class="university-content">
+              <div class="content-image">
+                <img src="./assets/images/home/about-01-1.webp" alt="" />
+              </div>
+              <div class="content-description">
+                <div class="content-title">
+                  <div class="title-cover">
+                    <div class="title-top">
+                      <h2>About</h2>
+                      <div id="line"></div>
+                    </div>
+                    <div class="title-bottom">
+                      <h2>Our University</h2>
+                    </div>
+                  </div>
+                  <div class="disk">
+                    <img src="./assets/images/home/about-circle.png" alt="" />
+                  </div>
+                </div>
+                <div class="content-text">
+                  <p>
+                    At University Studyhub, we believe in the transformative
+                    power of education and the boundless potential within every
+                    individual. Established in 1971, we have been dedicated to
+                    fostering intellectual curiosity, academic excellence, and a
+                    vibrant campus community.
+                  </p>
+                </div>
+                <div class="content-link">
+                  <span>
+                    <span> University Overview </span>
+                    <i class="fa-light fa-arrow-up-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="campus">
+        <h1 style="text-align: center; font-size: 50px;">Our Campus Tour</h1>
+        <div class="campus container">
+            <img src="assets/images/video-thumb.webp" alt="">
+            <p>
+                Embark on a journey of knowledge, discovery, and growth at Studyhub University. Our admissions
+                process is designed to identify bright, motivated individuals who are eager to contribute to our
+                dynamic academic community. Whether you’re a recent high school graduate or a transfer student
+                seeking a new academic home, we invite you to explore the possibilities that await you.</p>
+            <a href="">Visit Campus <i class="fa-solid fa-arrow-up-right"></i></a>
+        </div>
+    </section>
+      <section>
+        <div class="section-campus">
+          <div class="container">
+            <div class="campus-content">
+              <div class="content-description">
+                <h2>
+                  Immerse Yourself in Vibrant Campus Life at Studyhub University
+                </h2>
+                <span
+                  >Visit Campus <i class="fa-light fa-arrow-up-right"></i
+                ></span>
+              </div>
+              <div class="content-right">
+                <div class="right-text">
+                  <p>
+                    Embark on a journey of knowledge, discovery, and growth at
+                    Studyhub University. Our admissions process is designed to
+                    identify bright, motivated individuals who are eager to
+                    contribute to our dynamic academic community.
+                  </p>
+                </div>
+                <div class="right-image">
+                  <img src="./assets/images/home/campus.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="discover">
+        <div class="discover container">
+            <div class="discover-head">
+                <h1>Discover Our Programs</h1>
+                <a href="">More Program <i class="fa-solid fa-arrow-up-right"></i></a>
+            </div>
+            <div class="discover-cards">
+                <div class="discover-card">
+                    <div class="discover-img">
+                        <img src="assets/images/01-1.webp" alt="">
+                        <div class="discover-overlay">
+                            <i class="fa-light fa-school"></i>
+                            <h1>Graduate Admissions</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sunt veritatis a. Sed,
+                                laboriosam repellat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="discover-card">
+                    <div class="discover-img">
+                        <img src="assets/images/pro-1.webp" alt="">
+                        <div class="discover-overlay">
+                            <i class="fa-light fa-school"></i>
+                            <h1>Graduate Admissions</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sunt veritatis a. Sed,
+                                laboriosam repellat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="discover-card">
+                    <div class="discover-img">
+                        <img src="assets/images/pro-2.webp" alt="">
+                        <div class="discover-overlay">
+                            <i class="fa-light fa-school"></i>
+                            <h1>Graduate Admissions</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit sunt veritatis a. Sed,
+                                laboriosam repellat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <section>
+        <div class="section-admission">
+          <div class="container">
+            <div class="admission-title">
+              <h2>Apply for Admission</h2>
+              <p>
+                Welcome to the gateway of possibilities your admission to
+                Studyhub University. At Studyhub, we understand.
+              </p>
+            </div>
+            <div class="admission-content">
+              <div class="content-image">
+                <img src="./assets/images/home/admission-form.webp" alt="" />
+              </div>
+              <div class="content-form">
+                <div class="form-input">
+                  <form action="">
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Last Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="tel" placeholder="Phone" />
+                    <input type="text" placeholder="Address" />
+                    <input type="text" placeholder="City" />
+                    <input type="text" placeholder="Country" />
+                    <input type="text" placeholder="Zip Code" />
+                    <input type="date" placeholder="" />
+                    <textarea
+                      name=""
+                      id=""
+                      placeholder="Enter your comments"
+                    ></textarea>
+                    <button type="submit">
+                      Apply Now <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="latest">
+        <div class="latest container">
+            <div class="latest-head">
+                <h1 style="font-size: 40px;">Latest From Our Blogs</h1>
+                <p style="width: 300px;">Whether you’re considering a foundation course or an undergraduate academics is
+                    a
+                    place.</p>
+                <a href="">View All <i class="fa-solid fa-arrow-up-right"></i></a>
+            </div>
+            <div class="latest-main">
+                <div class="latest-left">
+                    <div class="discover-img latest-img">
+                        <img src="assets/images/frame-35-1-613x420.jpg" alt="">
+                        <div class="discover-overlay">
+                            <p style="text-align: center; width: 300px; font-size: 30px;">Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-right">
+                    <div class="latest-cards">
+                        <div class="latest-card">
+                            <div class="latest-card-left">
+                                <div class="discover-img latest-img-left">
+                                    <img src="assets/images/frame-35-1-613x420.jpg" alt="">
+                                    <div class="discover-overlay"></div>
+                                </div>
+                            </div>
+                            <div class="latest-card-right">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                        <div class="latest-card">
+                            <div class="latest-card-left">
+                                <div class="discover-img latest-img-left">
+                                    <img src="assets/images/frame-35-1-613x420.jpg" alt="">
+                                    <div class="discover-overlay"></div>
+                                </div>
+                            </div>
+                            <div class="latest-card-right">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                        <div class="latest-card">
+                            <div class="latest-card-left">
+                                <div class="discover-img latest-img-left">
+                                    <img src="assets/images/frame-35-1-613x420.jpg" alt="">
+                                    <div class="discover-overlay"></div>
+                                </div>
+                            </div>
+                            <div class="latest-card-right">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <section id="comment">
+        <div class="comment container">
+            <div class="comment-left">
+                <img src="assets/images/smiling-young-female-teacher-standing-front-blackboard-holding-stranded-board-showing-thumb-up-classroom_141793-106344.jpg"
+                    alt="Teacher Image">
+            </div>
+            <div class="comment-right">
+                <div class="comment-right-up">
+                    <p style="color: rgb(143, 143, 143); font-size: 20px;">Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Unde minima expedita nostrum
+                        inventore
+                        et eius, architecto aut hic rem animi fugiat nihil quos quisquam sequi sunt laborum?
+                        Doloremque,
+                        alias optio, fuga, voluptatum fugit culpa odit corrupti blanditiis incidunt aut dolorum.</p>
+                    <img src="assets/images/Ekran Resmi 2024-12-07 12.40.10.png" alt="">
+                </div>
+                <div class="comment-right-bottom">
+                    <div class="comment-parag">
+                        <h1>David John</h1>
+                        <p style="color: rgb(143, 143, 143);">artist and Instructor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="dont-miss"></div>
+
+        <ul class="footer-cols">
+          <li class="footer-item footer-logo-item">
+            <div class="footer-logo">
+              <img
+                src="	https://studyhub.themewant.com/university/wp-content/uploads/2024/05/footer-logo.svg"
+                alt=""
+              />
+            </div>
+            <p>
+              We are passionate education dedicated to providing high-quality
+              resources learners all backgrounds.
+            </p>
+            <p>
+              <i class="fa-sharp fa-light fa-location-dot"></i> Park, Melbourne,
+              Australia 485-826-710
+            </p>
+            <p>
+              <i class="fa-light fa-phone" style=""></i>
+              Park, Melbourne, Australia 485-826-710
+            </p>
+          </li>
+          <li class="footer-item">
+            <ul>
+              <li class="foter-title">Our Campus</li>
+              <li>Academics</li>
+              <li>Planning & Admission</li>
+              <li>Campus Safety</li>
+              <li>Faculty</li>
+              <li>Human Resources</li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <ul>
+              <li class="foter-title">Our Campus</li>
+              <li>About Us</li>
+              <li>Scholarship</li>
+              <li>Admission</li>
+              <li>Fitness Athletics</li>
+              <li>Tution Fee</li>
+            </ul>
+          </li>
+          <li class="footer-item">
+            <ul>
+              <li class="foter-title">Recent Post</li>
+              <li>About Us</li>
+              <li>Scholarship</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        $(".slider").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          fade: true,
+          infinite: false,
+          appendDots: ".slider-nav",
+          dots: true,
+          arrows: true,
+          prevArrow: '<button type="button" class="slick-prevs">←</button>',
+          nextArrow: '<button type="button" class="slick-nexts">→</button>',
+          speed: 600, // Syncs with dot animation
+        });
+
+        const shiftUnit = 20;
+        let totalSlides = $(".slider-nav .slick-dots li").length;
+        let shiftValue = 0;
+        const RIGHT = -1;
+        const LEFT = 1;
+        const DotsToShow = 5;
+
+        if (totalSlides > DotsToShow) {
+          $(".slider-nav").addClass("dots-constrained");
+        }
+
+        initialDotsLayout();
+
+        $(".slider").on(
+          "beforeChange",
+          function (event, slick, currentSlide, nextSlide) {
+            let reqSlideVal = 0;
+
+            $(".slider-nav .slick-dots li").removeClass("dot--medium");
+
+            if (nextSlide > currentSlide) {
+              reqSlideVal =
+                shiftValueCalculator(currentSlide, nextSlide, RIGHT) *
+                shiftUnit *
+                RIGHT;
+            } else {
+              reqSlideVal =
+                shiftValueCalculator(currentSlide, nextSlide, LEFT) * shiftUnit;
+            }
+
+            if (nextSlide > 2 && nextSlide < totalSlides - 3) {
+              shiftValue = shiftValue + reqSlideVal;
+              $(".slider-nav .slick-dots li")
+                .eq(nextSlide + 1)
+                .addClass("dot--medium");
+              $(".slider-nav .slick-dots li")
+                .eq(nextSlide - 1)
+                .addClass("dot--medium");
+            } else if (nextSlide <= 2) {
+              shiftValue = 0;
+              initialDotsLayout();
+            } else if (nextSlide >= totalSlides - 3) {
+              shiftValue = (totalSlides - DotsToShow) * shiftUnit * RIGHT;
+              lastDotsLayout();
+            }
+
+            $(".slider-nav .slick-dots").css({
+              transform: "translateX(" + shiftValue + "px" + ")",
+            });
+          }
+        );
+
+        function shiftValueCalculator(currentSlide, nextSlide, direction) {
+          let slideDifference = 0;
+          if (direction === RIGHT) {
+            slideDifference = nextSlide - currentSlide;
+          } else {
+            slideDifference = currentSlide - nextSlide;
+          }
+
+          switch (slideDifference) {
+            case 4:
+              return 2;
+            case 3:
+              return 1;
+            default:
+              return slideDifference;
+          }
+        }
+
+        function initialDotsLayout() {
+          for (let i = 0; i <= 3; i++) {
+            $(".slider-nav .slick-dots li").eq(i).addClass("dot--medium");
+          }
+        }
+
+        function lastDotsLayout() {
+          for (let i = totalSlides; i >= totalSlides - 4; i--) {
+            $(".slider-nav .slick-dots li").eq(i).addClass("dot--medium");
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

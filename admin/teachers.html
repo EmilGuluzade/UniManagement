@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-d53d10572a0e0d37cb8d614a3f177a0c.css?vsn=d"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/student.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bubblegum+Sans&family=Hind:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Kiwi+Maru&family=Leckerli+One&family=Lobster&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+  
+  
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-up-color">
+          <div class="nav-up container">
+            <div class="nav-up-contact">
+              <div class="nav-u-cont-l">
+                <i class="fa-regular fa-envelope"></i> info@studyhub.com
+              </div>
+              <div class="nav-u-cont-r">
+                <i class="fa-solid fa-phone"></i> +61 012 012 445
+              </div>
+            </div>
+            <div class="nav-up-location">
+              <i class="fa-solid fa-location-dot"></i>
+              684 West College St. Sun City, USA
+            </div>
+          </div>
+        </div>
+        <div class="container nav-mid">
+          <img
+            src="https://studyhub.themewant.com/wp-content/uploads/2023/07/logo-1.svg"
+            alt=""
+          />
+          <div class="nav-mid-welc">Welcome to the Admin Page</div>
+          <div class="nav-login-r">
+            <a class="nav-logout" href="">Logout</a>
+            <a class="dashboard" href="/">Home</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="admin-profile">
+        <div class="profile-cover">
+          <div class="profile">
+            <div class="profile-photo"></div>
+            <div class="profile-content">
+              <h3>admin admin</h3>
+              <div class="profile-status">
+                <span>0 Course Enrolled • 0 Course Completed </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="admin-grid">
+        <div class="admin-aside">
+          <div class="aside-content">
+            <div class="content-card">
+              <div class="card-content">
+                <span><i class="fa-sharp fa-solid fa-gauge"></i></span>
+                <a href="">Profile </a>
+              </div>
+            </div>
+            <div class="content-card">
+              <div class="card-content">
+                <span><i class="fa-sharp fa-solid fa-gauge"></i></span>
+                <a href="/admin/tasks">Tasks </a>
+              </div>
+            </div>
+            <div class="content-card">
+              <div class="card-content">
+                <span><i class="fa-duotone fa-solid fa-graduation-cap"></i></span>
+                <a href="./student.html">Student</a>
+              </div>
+            </div>
+            <div class="content-card">
+              <div class="card-content">
+                <span><i class="fa-solid fa-chalkboard-user"></i></span>
+                <a href="teachers.html">Teacher</a>
+              </div>
+            </div>
+            <div class="content-card">
+              <div class="card-content">
+                <span><i class="fa-solid fa-book-open-cover"></i></span>
+                <a href="courses.html">Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="admin-tables" style="border: none; margin-top: 100px !important; margin-left: 50px;">
+          
+          <button style="margin-bottom: 20px; float: right; border-radius: 10px; padding: 10px 20px ;color: #fff;background-color: #7763E6">Add</button>
+          
+          <table id="example" class="display" >
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Username</th>
+                <th>Email</th>
+             <th>Actions</th>   
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emil</td>
+                <td>Quluzade</td>
+                <td>Tritan</td>
+                <td>emilquluzade2207@gmail.com</td>
+                <td>
+          <button style="margin-bottom: 20px;  border-radius: 10px; padding: 10px 20px ;color: #fff;background-color: red">Delete</button>
+
+          <button style="margin-bottom: 20px;  border-radius: 10px; padding: 10px 20px ;color: #fff;background-color: green;">Edit</button>
+
+                </td>
+              </tr>
+             
+              <!-- Add more rows as needed -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("#example").DataTable({
+          paging: true, // Enable/disable pagination
+          searching: true, // Enable/disable search
+          ordering: true, // Enable/disable column sorting
+          pageLength: 5, // Set the number of rows per page
+          lengthMenu: [5, 10, 25, 50], // Options for rows per page
+        });
+      });
+    </script>
+  </body>
+</html>

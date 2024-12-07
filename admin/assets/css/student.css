@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+h1,h2,h3,h4,h5,h6,label{
+    font-family: "Hind", sans-serif;
+}
+p,a, span{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+header{
+
+    nav{
+        .nav-up-color{
+            background-color: #553CDF;
+            .nav-up{
+                margin: 0px auto;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+           
+                padding: 10px;
+        
+                .nav-up-contact{
+                    gap: 20px;
+                    display: flex;
+                }
+                .nav-up-location{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+        .nav-mid{
+            margin: 0px auto;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+
+            .nav-mid-welc{
+                font-family: "Leckerli One";
+                display: flex;
+                font-size: 23px;
+                align-items: center;
+            }
+            .nav-login-r{
+                display: flex;
+                gap: 20px;
+
+                a{
+                    padding: 5px 15px;
+                    align-items: center;
+                    border: 1px solid #553CDF;
+                    color: #553CDF;
+                    transition: 0.5s;
+                    font-size: 17px;
+                    border-radius: 5px;
+
+                }
+
+                .nav-logout{
+                    background-color: white;
+                    
+                    &:hover{
+                        color: white;
+                        background-color: #553CDF;
+                    }
+                }
+                .dashboard{
+                    background-color: #553CDF;
+                    color: white;
+
+                    &:hover{
+                        color:#553CDF; 
+                        background-color: white;;
+                    }
+
+                }
+            }
+        }
+    }
+    
+}
+.admin-profile {
+  background-image: url(https://studyhub.themewant.com/wp-content/uploads/2024/04/instructor-cover.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+
+  .profile-cover {
+    position: absolute;
+    bottom: -80px;
+    left: 40px;
+
+    .profile {
+      width: 230px;
+      height: 230px;
+      position: relative;
+      background-color: white;
+      border-radius: 50%;
+
+      .profile-photo {
+        background-image: url(https://secure.gravatar.com/avatar/75d23af433e0cea4c0e45a56dba18b30?s=300&d=mm&r=g);
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+    }
+    .profile-content {
+        width: 350px;
+        position: absolute;
+        left: 300px;
+        bottom: 100px;
+
+        h3{
+            color: white;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        span{
+            color: white;
+        }
+      }
+  }
+}
+.admin-grid{
+    display: flex;
+}
+.admin-tables{
+    width: 75%;
+
+}
+.admin-aside{
+    margin-top: 80px;
+    width: 25%;
+    border: 1px solid rgb(221, 216, 249);
+    .aside-content{
+        padding: 40px;
+
+        .content-card{
+            .card-content{
+                border-bottom: 1px solid rgb(221, 216, 249);
+                padding: 18px 0;
+                a{
+                    text-decoration: none;
+                    color: #737477;
+                    margin-left: 20px;
+                }
+                span{
+                    color: #737477;
+                }
+            }
+        }
+    }
+}
